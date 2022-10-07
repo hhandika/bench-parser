@@ -1,642 +1,642 @@
 Benchmark,type,OS,CPU,Dataset,Execution_time,RAM_usage_kb,CPU_usage
     
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.32,603756,142%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.33,610216,152%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.34,604840,148%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.26,607260,148%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.33,601728,147%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.33,603636,149%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.33,605760,147%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.34,612416,148%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.26,608048,153%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.31,611400,151%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.89,650608,128%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.64,652856,147%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.69,649224,146%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.65,654124,147%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.63,653372,147%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.61,651768,148%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.56,653688,158%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.58,655648,148%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.59,653112,147%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.55,648300,149%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.99,515720,115%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.71,522064,137%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.70,522328,136%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.68,529656,133%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.82,522472,135%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.79,521204,134%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.84,521748,135%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.71,523904,136%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.70,522984,136%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.81,521840,135%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.35,390988,130%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.24,391224,170%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.20,388260,171%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.28,392292,166%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.24,391620,167%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.26,390804,171%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.24,392696,170%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.22,391024,176%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.22,389976,168%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.22,391572,166%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.95,606716,226%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.98,614228,206%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.95,608480,220%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.96,600792,224%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.96,611096,218%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.96,602892,216%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.98,607872,223%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.95,600068,213%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.96,603052,222%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.96,606240,233%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.41,650904,234%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.40,646984,221%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.42,650476,220%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.42,648076,219%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.40,648760,225%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.42,650896,225%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.44,656528,222%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.43,652636,226%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.43,651368,222%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.41,651148,226%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.96,522668,231%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.99,523424,240%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.96,525672,233%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.97,522820,248%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.98,529980,241%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.99,528908,230%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.99,525120,239%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.99,533196,238%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.99,522616,238%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.98,528756,227%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.88,391304,281%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.89,392744,277%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,385984,282%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.89,392000,276%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,392232,280%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,386092,273%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,392572,276%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.89,387176,273%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,392256,279%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,383040,267%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.70,2053672,783%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.67,2052924,796%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.65,2052784,807%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.59,2052988,832%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.60,2055280,841%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.68,2055184,777%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.66,2056560,797%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.68,2053500,795%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.65,2052920,797%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.69,2054684,783%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.66,2316808,644%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.69,2316584,636%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:04.35,2314660,555%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.80,2318960,621%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.64,2319552,647%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.62,2316908,646%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.63,2316712,646%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.63,2319348,647%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.60,2318604,649%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.63,2317356,643%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.56,1841976,1116%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.59,1842336,1070%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.57,1844204,1099%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.60,1842332,1097%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.58,1844084,1106%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.52,1841840,1151%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.61,1842136,1073%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.58,1842808,1103%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.54,1842400,1136%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.51,1842168,1150%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.71,1291744,712%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.69,1292460,720%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.70,1291976,711%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.79,1291864,695%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.69,1292032,729%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.66,1291704,734%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.77,1292156,694%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.71,1291932,725%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.79,1292248,678%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.70,1294424,731%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.75,2053832,208%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.94,2054988,207%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:11.02,2056520,206%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.85,2056672,204%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.86,2055132,207%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:11.02,2054812,206%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.88,2054596,206%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.79,2053472,207%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.65,2053108,211%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.80,2054872,207%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,5:49.13,2316772,105%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:21.94,2314416,109%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:10.57,2314836,110%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:16.65,2316192,110%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:20.01,2314504,109%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:13.55,2314332,110%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:18.04,2314700,110%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:31.66,2314596,109%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:43.76,2314600,108%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:11.79,2317004,110%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.52,1842104,390%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.44,1844324,394%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.48,1843688,392%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.43,1842252,396%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.55,1841800,387%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.48,1841992,391%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.47,1842372,391%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.49,1842056,384%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.51,1841888,391%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.53,1841968,387%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:09.94,1288728,207%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.57,1288680,201%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.29,1289732,202%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.07,1290652,205%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.00,1288788,206%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:09.95,1287160,207%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.38,1288900,201%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.36,1288900,202%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.29,1290924,202%
-Benchmarking AMAS Check Align,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:13.84,1288800,176%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.61,350760,131%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.66,352360,134%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.59,355428,138%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.56,352308,135%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.57,354716,134%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.57,350784,133%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.60,352276,133%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.58,351416,142%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.66,355572,134%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.57,352484,138%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.19,609420,118%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.14,607780,125%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.05,602108,128%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.07,608740,128%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.20,598572,129%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.09,597400,128%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.06,599556,128%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.05,610356,128%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.22,602628,127%
-Benchmarking SEGUL,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.14,605696,127%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,354096,233%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,353612,222%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.74,351432,224%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,352008,219%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,348000,223%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.74,347292,237%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.74,355516,218%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,347936,244%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.72,353436,226%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,352296,236%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.20,605532,218%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.20,601092,226%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.22,601260,218%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.19,611228,219%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.20,599444,217%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.19,607036,219%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.21,606160,227%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.20,595452,217%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.22,594836,217%
-Benchmarking SEGUL ignore datatype,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.21,600412,221%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.95,1170576,1017%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.93,1173096,1023%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.94,1170480,1013%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.93,1171328,1024%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.01,1171080,989%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.98,1170560,995%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.95,1170340,1007%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.99,1171244,984%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.94,1172996,1021%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.00,1170472,990%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.77,1784268,442%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.61,1784384,461%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.66,1783884,461%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.69,1784820,463%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.63,1783224,462%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.69,1787956,452%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.67,1783328,457%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.68,1783144,455%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.66,1773096,458%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.71,1782652,453%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:23.20,1170592,177%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:23.62,1171040,175%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:23.45,1170276,176%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.86,1172832,178%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.56,1171264,178%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.55,1170200,179%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.65,1172880,178%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.82,1170548,178%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.60,1171472,179%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.50,1170628,179%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:48.54,1778796,102%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:51.25,1778028,102%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:49.85,1781248,102%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,13:52.44,1778520,101%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:55.12,1779300,102%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:58.14,1779684,102%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:02.88,1779112,102%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:52.63,1777284,102%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:50.25,1779348,102%
-Benchmarking AMAS,concat,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:19.57,1778160,102%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.23,28056,1908%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.23,28904,1913%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.26,29720,1815%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.23,30008,1845%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.24,29656,1862%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.22,31240,1891%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.25,30032,1877%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.24,26932,1930%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.23,27056,1841%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.22,31516,1933%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.35,34720,1968%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.36,32012,1948%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.38,35228,1970%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.34,35456,1983%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.35,34288,1964%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.34,35676,1975%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.38,34104,1967%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.37,36208,2007%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.33,34744,1998%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.34,35356,1932%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.41,26320,1647%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.37,23696,1806%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.35,28712,1905%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.38,26384,1713%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.35,27292,1909%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.37,26948,1961%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.40,26252,1696%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.88,26280,787%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.58,26380,1168%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.56,26968,1284%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.47,27124,920%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.32,24476,1358%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.31,24864,1372%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.32,27296,1370%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.29,25120,1396%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.32,26952,1366%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.32,27468,1331%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.38,26828,1174%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.30,27424,1368%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.32,26936,1370%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.12,29612,1603%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.48,29284,445%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.49,27416,436%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.41,27676,503%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.15,29304,1340%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.40,29780,504%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.47,28388,436%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.14,27460,1441%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.39,29332,521%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.37,29592,562%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.33,35212,946%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.37,34512,873%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.28,33376,1116%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.38,32860,791%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.24,37088,1298%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.19,35916,1606%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.22,35476,1384%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.27,35428,1095%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.27,34744,1178%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.27,33048,1136%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.22,25628,1150%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.19,24792,1250%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.18,26244,1299%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.20,27052,1229%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.34,26620,711%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.18,27248,1282%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.14,27080,1638%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.14,24816,1729%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.17,26528,1421%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.14,25224,1719%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.52,26904,381%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.30,27508,891%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.27,27128,754%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.29,25208,837%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.27,26800,813%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.29,24872,820%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.29,25208,800%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.30,27424,937%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.27,27580,817%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.28,27020,827%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.17,429192,1072%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.18,429316,1099%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.08,429744,1213%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.19,429124,1082%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.19,435452,1088%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.18,433596,1099%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.17,433184,1103%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.19,434744,1087%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.17,429124,1089%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.17,429464,1096%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.99,715784,1100%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.12,714400,1029%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.12,713544,1037%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.09,714136,1036%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.09,713040,1045%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.11,712404,1047%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.11,711040,1044%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.99,712928,1107%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.09,712676,1040%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.11,711636,1047%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.38,505940,1251%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.37,513064,1265%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.28,509760,1366%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.27,510512,1348%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.38,510820,1243%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.27,515556,1353%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.38,512200,1244%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.38,512788,1229%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.37,513912,1244%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.38,510304,1239%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.61,376776,745%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.64,377216,740%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.65,379496,722%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.64,379128,744%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.63,376972,739%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.62,378116,744%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.62,377336,756%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.61,374320,763%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.51,377648,813%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.61,378384,761%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.42,429432,214%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.27,432688,215%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.59,427548,207%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.35,429520,214%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.48,432896,212%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.52,433524,211%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.43,433000,212%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.50,433652,212%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.15,430612,216%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.39,431944,212%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:15.62,708092,110%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:11.07,710220,110%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:23.94,715748,109%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:13.12,713532,110%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:23.46,714500,109%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:18.93,713760,110%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:23.37,712740,109%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:09.58,713832,110%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:19.55,713144,109%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:11.01,712460,110%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.22,507816,402%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:07.01,511476,326%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.27,512788,398%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.35,511524,396%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.24,511700,399%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.15,513564,410%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.25,506592,403%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.08,513584,411%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.23,515684,404%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.18,511064,401%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.23,376016,204%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.20,376304,202%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:09.87,376864,208%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.16,377400,205%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.14,378176,204%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:13.90,379748,175%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:09.84,376172,207%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:09.73,375156,209%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.02,377604,205%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.22,377532,204%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.24,32488,1826%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.24,32592,1862%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.24,30444,1925%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.23,31792,1899%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.26,31868,1908%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.23,31136,1938%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.23,31080,1961%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.25,30112,1846%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.23,30744,1967%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.23,31396,1922%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.45,68440,2058%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.41,70944,2004%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.44,67980,1948%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.45,69200,1934%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.46,72560,1918%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.43,67332,2038%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.47,68064,2059%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.40,70624,2081%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.46,67048,1950%
-Benchmarking SEGUL Convert Nexus to Phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.40,70136,2113%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.12,29956,1402%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.18,32416,1161%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.13,33084,1232%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.13,30956,1465%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.13,31788,1333%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.13,29768,1397%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.12,29112,1313%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.13,31688,1429%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.12,28300,1369%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.12,31572,1417%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.15,75792,1757%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.18,65280,1497%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.28,66932,967%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.21,68048,1273%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.21,69188,1292%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.15,67872,1763%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.15,66420,1788%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.15,65556,1818%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.14,69136,1811%
-Benchmarking SEGUL ignore datatype,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.16,70272,1752%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.58,358760,1247%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.59,358244,1222%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.48,362088,1304%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.48,361508,1293%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.48,359416,1324%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.60,358468,1217%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.60,360148,1210%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.59,358212,1221%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.58,359912,1235%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.59,358352,1233%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.68,598916,871%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.57,602572,952%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.68,597196,879%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.67,600124,895%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.57,595896,960%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.57,603360,939%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.57,600972,940%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.57,607604,936%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.68,602184,887%
-Benchmarking AMAS convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.69,594084,883%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.17,362020,180%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.32,358308,180%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.32,361128,181%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.34,359564,180%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.51,355380,180%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.46,360868,178%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.78,356616,179%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.82,357692,178%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.26,361304,181%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.57,357232,180%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:59.60,600388,102%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:02.22,598616,102%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:47.95,595624,102%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:56.08,600456,102%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:09.01,602960,102%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:59.92,597248,102%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:18.45,601044,102%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:00.35,600324,102%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:52.56,600164,102%
-Benchmarking AMAS Check Align convert nexus to phylip,convert,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:55.03,601760,102%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.92,380520,1627%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.90,378748,1682%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.91,379816,1667%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.91,381776,1670%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.90,377336,1672%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.90,378400,1685%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.91,380480,1659%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.90,381164,1677%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.91,377168,1672%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.90,376756,1679%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,652780,1615%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,657700,1615%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,657848,1609%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.51,653340,1611%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.51,660460,1604%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,664260,1612%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,655040,1611%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.51,659568,1605%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,654472,1608%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.51,663664,1607%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:37.89,1002300,391%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:37.19,1001784,396%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:37.72,1001568,392%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:40.14,1003244,373%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:37.32,1001752,394%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:39.53,1001892,377%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:37.51,1001672,392%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:40.18,1002416,374%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:40.21,1003752,372%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:39.59,1002320,375%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:04.95,1726520,373%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.58,1724736,375%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.83,1723804,371%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.30,1725632,373%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.97,1724456,371%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:04.19,1725392,370%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.46,1724676,373%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.96,1725228,373%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:04.08,1724568,372%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.27,1724000,373%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,144276,1976%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,145792,1988%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.79,141728,1978%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.79,144112,1989%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,144396,1999%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,143928,2001%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.79,141548,1991%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.79,143992,1988%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,144824,2013%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,143356,1996%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.32,335224,1812%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.30,335820,1842%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.30,339320,1839%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.30,336764,1847%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.29,337588,1844%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.30,334104,1855%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.29,335976,1853%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.30,337068,1844%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.31,337116,1838%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.31,333840,1811%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,102280,2191%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,102728,2197%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.07,102212,2162%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,99992,2191%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,101392,2194%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,102668,2191%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.07,102664,2193%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.07,102148,2194%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.07,102908,2172%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,100680,2192%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.85,242168,1673%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.85,240304,1685%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.86,240256,1673%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.87,240784,1675%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.85,238420,1670%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.85,238020,1690%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.86,239628,1670%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.88,240992,1623%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.85,239988,1669%
-Benchmarking SEGUL,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.86,240492,1666%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:42.09,1243836,421%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.64,1243428,427%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.73,1245888,427%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.68,1244548,428%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.75,1245452,428%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.95,1243368,421%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:42.18,1243468,424%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.94,1245452,428%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.73,1245064,424%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.88,1245012,429%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.21,2022736,388%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.08,2022156,390%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.04,2022388,388%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:15.41,2022272,405%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:18.68,2022224,390%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.15,2022436,389%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:18.86,2022304,391%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.05,2024316,393%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:18.89,2022764,392%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.08,2024468,392%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:47.92,1476832,496%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.09,1475156,496%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.37,1476328,494%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.24,1474676,495%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.00,1475720,496%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.31,1475620,491%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.24,1473944,492%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.37,1476188,493%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.05,1475996,493%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.09,1473536,493%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.50,1005788,420%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.88,1006168,415%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.52,1005844,419%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:40.34,1007932,410%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:40.19,1005952,414%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.87,1007916,417%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:40.88,1007304,410%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:40.38,1005784,410%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.60,1006056,419%
-Benchmarking AMAS,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.15,1005952,419%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.45,47760,2275%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.13,46436,2257%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.23,46612,2254%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.23,47948,2269%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:25.84,46856,2274%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.23,46556,2272%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.14,46744,2277%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.24,46708,2257%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.13,46208,2280%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.33,46388,2281%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.45,47444,2288%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.25,47460,2297%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.65,47100,2295%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.66,47304,2292%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.05,47304,2296%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.56,47420,2297%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.45,47416,2282%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.55,47224,2293%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.35,48760,2299%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.15,47416,2294%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.35,46884,2294%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.34,47932,2312%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:33.15,46084,2304%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.14,47704,2312%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.65,47648,2309%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.55,46044,2309%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.85,46928,2306%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.75,46392,2297%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:33.24,45992,2301%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.24,46268,2309%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.46,66948,2285%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.48,68480,2280%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.35,68384,2278%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.38,66912,2278%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.46,67024,2284%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.36,66896,2294%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.95,68704,2270%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.35,66848,2297%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.26,66912,2270%
-Benchmarking Phyluce,summary,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.37,66772,2283%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.32,603756,142%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.33,610216,152%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.34,604840,148%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.26,607260,148%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.33,601728,147%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.33,603636,149%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.33,605760,147%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.34,612416,148%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.26,608048,153%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:02.31,611400,151%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.89,650608,128%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.64,652856,147%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.69,649224,146%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.65,654124,147%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.63,653372,147%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.61,651768,148%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.56,653688,158%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.58,655648,148%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.59,653112,147%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.55,648300,149%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.99,515720,115%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.71,522064,137%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.70,522328,136%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.68,529656,133%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.82,522472,135%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.79,521204,134%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.84,521748,135%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.71,523904,136%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.70,522984,136%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:03.81,521840,135%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.35,390988,130%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.24,391224,170%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.20,388260,171%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.28,392292,166%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.24,391620,167%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.26,390804,171%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.24,392696,170%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.22,391024,176%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.22,389976,168%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:02.22,391572,166%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.95,606716,226%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.98,614228,206%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.95,608480,220%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.96,600792,224%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.96,611096,218%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.96,602892,216%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.98,607872,223%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.95,600068,213%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.96,603052,222%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.96,606240,233%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.41,650904,234%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.40,646984,221%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.42,650476,220%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.42,648076,219%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.40,648760,225%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.42,650896,225%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.44,656528,222%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.43,652636,226%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.43,651368,222%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.41,651148,226%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.96,522668,231%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.99,523424,240%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.96,525672,233%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.97,522820,248%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.98,529980,241%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.99,528908,230%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.99,525120,239%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.99,533196,238%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.99,522616,238%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.98,528756,227%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.88,391304,281%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.89,392744,277%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,385984,282%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.89,392000,276%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,392232,280%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,386092,273%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,392572,276%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.89,387176,273%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,392256,279%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.90,383040,267%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.70,2053672,783%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.67,2052924,796%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.65,2052784,807%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.59,2052988,832%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.60,2055280,841%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.68,2055184,777%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.66,2056560,797%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.68,2053500,795%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.65,2052920,797%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.69,2054684,783%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.66,2316808,644%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.69,2316584,636%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:04.35,2314660,555%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.80,2318960,621%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.64,2319552,647%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.62,2316908,646%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.63,2316712,646%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.63,2319348,647%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.60,2318604,649%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:03.63,2317356,643%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.56,1841976,1116%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.59,1842336,1070%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.57,1844204,1099%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.60,1842332,1097%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.58,1844084,1106%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.52,1841840,1151%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.61,1842136,1073%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.58,1842808,1103%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.54,1842400,1136%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.51,1842168,1150%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.71,1291744,712%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.69,1292460,720%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.70,1291976,711%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.79,1291864,695%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.69,1292032,729%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.66,1291704,734%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.77,1292156,694%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.71,1291932,725%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.79,1292248,678%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.70,1294424,731%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.75,2053832,208%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.94,2054988,207%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:11.02,2056520,206%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.85,2056672,204%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.86,2055132,207%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:11.02,2054812,206%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.88,2054596,206%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.79,2053472,207%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.65,2053108,211%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.80,2054872,207%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,5:49.13,2316772,105%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:21.94,2314416,109%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:10.57,2314836,110%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:16.65,2316192,110%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:20.01,2314504,109%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:13.55,2314332,110%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:18.04,2314700,110%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:31.66,2314596,109%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:43.76,2314600,108%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:11.79,2317004,110%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.52,1842104,390%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.44,1844324,394%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.48,1843688,392%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.43,1842252,396%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.55,1841800,387%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.48,1841992,391%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.47,1842372,391%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.49,1842056,384%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.51,1841888,391%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.53,1841968,387%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:09.94,1288728,207%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.57,1288680,201%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.29,1289732,202%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.07,1290652,205%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.00,1288788,206%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:09.95,1287160,207%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.38,1288900,201%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.36,1288900,202%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.29,1290924,202%
+Alignment Concatenation,Benchmarking AMAS Check Align,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:13.84,1288800,176%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.61,350760,131%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.66,352360,134%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.59,355428,138%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.56,352308,135%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.57,354716,134%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.57,350784,133%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.60,352276,133%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.58,351416,142%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.66,355572,134%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.57,352484,138%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.19,609420,118%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.14,607780,125%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.05,602108,128%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.07,608740,128%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.20,598572,129%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.09,597400,128%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.06,599556,128%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.05,610356,128%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.22,602628,127%
+Alignment Concatenation,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:05.14,605696,127%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,354096,233%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,353612,222%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.74,351432,224%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,352008,219%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,348000,223%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.74,347292,237%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.74,355516,218%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,347936,244%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.72,353436,226%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.73,352296,236%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.20,605532,218%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.20,601092,226%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.22,601260,218%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.19,611228,219%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.20,599444,217%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.19,607036,219%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.21,606160,227%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.20,595452,217%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.22,594836,217%
+Alignment Concatenation,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.21,600412,221%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.95,1170576,1017%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.93,1173096,1023%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.94,1170480,1013%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.93,1171328,1024%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.01,1171080,989%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.98,1170560,995%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.95,1170340,1007%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.99,1171244,984%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.94,1172996,1021%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:02.00,1170472,990%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.77,1784268,442%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.61,1784384,461%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.66,1783884,461%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.69,1784820,463%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.63,1783224,462%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.69,1787956,452%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.67,1783328,457%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.68,1783144,455%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.66,1773096,458%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:03.71,1782652,453%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:23.20,1170592,177%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:23.62,1171040,175%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:23.45,1170276,176%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.86,1172832,178%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.56,1171264,178%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.55,1170200,179%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.65,1172880,178%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.82,1170548,178%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.60,1171472,179%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.50,1170628,179%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:48.54,1778796,102%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:51.25,1778028,102%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:49.85,1781248,102%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,13:52.44,1778520,101%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:55.12,1779300,102%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:58.14,1779684,102%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:02.88,1779112,102%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:52.63,1777284,102%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:50.25,1779348,102%
+Alignment Concatenation,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:19.57,1778160,102%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.23,28056,1908%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.23,28904,1913%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.26,29720,1815%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.23,30008,1845%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.24,29656,1862%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.22,31240,1891%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.25,30032,1877%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.24,26932,1930%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.23,27056,1841%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.22,31516,1933%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.35,34720,1968%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.36,32012,1948%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.38,35228,1970%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.34,35456,1983%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.35,34288,1964%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.34,35676,1975%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.38,34104,1967%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.37,36208,2007%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.33,34744,1998%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.34,35356,1932%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.41,26320,1647%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.37,23696,1806%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.35,28712,1905%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.38,26384,1713%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.35,27292,1909%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.37,26948,1961%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.40,26252,1696%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.88,26280,787%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.58,26380,1168%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.56,26968,1284%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.47,27124,920%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.32,24476,1358%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.31,24864,1372%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.32,27296,1370%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.29,25120,1396%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.32,26952,1366%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.32,27468,1331%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.38,26828,1174%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.30,27424,1368%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.32,26936,1370%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.12,29612,1603%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.48,29284,445%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.49,27416,436%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.41,27676,503%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.15,29304,1340%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.40,29780,504%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.47,28388,436%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.14,27460,1441%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.39,29332,521%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.37,29592,562%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.33,35212,946%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.37,34512,873%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.28,33376,1116%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.38,32860,791%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.24,37088,1298%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.19,35916,1606%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.22,35476,1384%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.27,35428,1095%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.27,34744,1178%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:00.27,33048,1136%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.22,25628,1150%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.19,24792,1250%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.18,26244,1299%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.20,27052,1229%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.34,26620,711%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.18,27248,1282%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.14,27080,1638%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.14,24816,1729%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.17,26528,1421%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:00.14,25224,1719%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.52,26904,381%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.30,27508,891%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.27,27128,754%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.29,25208,837%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.27,26800,813%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.29,24872,820%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.29,25208,800%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.30,27424,937%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.27,27580,817%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.28,27020,827%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.17,429192,1072%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.18,429316,1099%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.08,429744,1213%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.19,429124,1082%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.19,435452,1088%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.18,433596,1099%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.17,433184,1103%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.19,434744,1087%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.17,429124,1089%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:01.17,429464,1096%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.99,715784,1100%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.12,714400,1029%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.12,713544,1037%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.09,714136,1036%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.09,713040,1045%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.11,712404,1047%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.11,711040,1044%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.99,712928,1107%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.09,712676,1040%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:02.11,711636,1047%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.38,505940,1251%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.37,513064,1265%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.28,509760,1366%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.27,510512,1348%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.38,510820,1243%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.27,515556,1353%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.38,512200,1244%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.38,512788,1229%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.37,513912,1244%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.38,510304,1239%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.61,376776,745%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.64,377216,740%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.65,379496,722%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.64,379128,744%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.63,376972,739%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.62,378116,744%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.62,377336,756%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.61,374320,763%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.51,377648,813%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:01.61,378384,761%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.42,429432,214%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.27,432688,215%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.59,427548,207%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.35,429520,214%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.48,432896,212%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.52,433524,211%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.43,433000,212%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.50,433652,212%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.15,430612,216%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:10.39,431944,212%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:15.62,708092,110%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:11.07,710220,110%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:23.94,715748,109%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:13.12,713532,110%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:23.46,714500,109%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:18.93,713760,110%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:23.37,712740,109%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:09.58,713832,110%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:19.55,713144,109%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,3:11.01,712460,110%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.22,507816,402%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:07.01,511476,326%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.27,512788,398%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.35,511524,396%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.24,511700,399%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.15,513564,410%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.25,506592,403%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.08,513584,411%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.23,515684,404%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:05.18,511064,401%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.23,376016,204%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.20,376304,202%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:09.87,376864,208%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.16,377400,205%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.14,378176,204%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:13.90,379748,175%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:09.84,376172,207%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:09.73,375156,209%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.02,377604,205%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:10.22,377532,204%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.24,32488,1826%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.24,32592,1862%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.24,30444,1925%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.23,31792,1899%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.26,31868,1908%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.23,31136,1938%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.23,31080,1961%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.25,30112,1846%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.23,30744,1967%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.23,31396,1922%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.45,68440,2058%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.41,70944,2004%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.44,67980,1948%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.45,69200,1934%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.46,72560,1918%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.43,67332,2038%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.47,68064,2059%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.40,70624,2081%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.46,67048,1950%
+Alignment Conversion,Benchmarking SEGUL Convert Nexus to Phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.40,70136,2113%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.12,29956,1402%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.18,32416,1161%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.13,33084,1232%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.13,30956,1465%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.13,31788,1333%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.13,29768,1397%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.12,29112,1313%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.13,31688,1429%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.12,28300,1369%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.12,31572,1417%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.15,75792,1757%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.18,65280,1497%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.28,66932,967%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.21,68048,1273%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.21,69188,1292%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.15,67872,1763%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.15,66420,1788%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.15,65556,1818%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.14,69136,1811%
+Alignment Conversion,Benchmarking SEGUL ignore datatype,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:00.16,70272,1752%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.58,358760,1247%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.59,358244,1222%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.48,362088,1304%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.48,361508,1293%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.48,359416,1324%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.60,358468,1217%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.60,360148,1210%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.59,358212,1221%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.58,359912,1235%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:01.59,358352,1233%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.68,598916,871%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.57,602572,952%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.68,597196,879%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.67,600124,895%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.57,595896,960%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.57,603360,939%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.57,600972,940%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.57,607604,936%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.68,602184,887%
+Alignment Conversion,Benchmarking AMAS convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.69,594084,883%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.17,362020,180%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.32,358308,180%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.32,361128,181%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.34,359564,180%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.51,355380,180%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.46,360868,178%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.78,356616,179%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.82,357692,178%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.26,361304,181%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:22.57,357232,180%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:59.60,600388,102%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:02.22,598616,102%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:47.95,595624,102%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:56.08,600456,102%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:09.01,602960,102%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:59.92,597248,102%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:18.45,601044,102%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,8:00.35,600324,102%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:52.56,600164,102%
+Alignment Conversion,Benchmarking AMAS Check Align convert nexus to phylip,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,7:55.03,601760,102%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.92,380520,1627%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.90,378748,1682%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.91,379816,1667%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.91,381776,1670%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.90,377336,1672%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.90,378400,1685%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.91,380480,1659%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.90,381164,1677%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.91,377168,1672%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:00.90,376756,1679%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,652780,1615%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,657700,1615%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,657848,1609%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.51,653340,1611%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.51,660460,1604%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,664260,1612%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,655040,1611%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.51,659568,1605%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.50,654472,1608%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,0:01.51,663664,1607%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:37.89,1002300,391%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:37.19,1001784,396%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:37.72,1001568,392%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:40.14,1003244,373%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:37.32,1001752,394%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:39.53,1001892,377%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:37.51,1001672,392%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:40.18,1002416,374%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:40.21,1003752,372%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/wu_2018_aa_loci/,0:39.59,1002320,375%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:04.95,1726520,373%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.58,1724736,375%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.83,1723804,371%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.30,1725632,373%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.97,1724456,371%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:04.19,1725392,370%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.46,1724676,373%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.96,1725228,373%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:04.08,1724568,372%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/shen_2018_loci_aa/,1:03.27,1724000,373%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,144276,1976%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,145792,1988%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.79,141728,1978%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.79,144112,1989%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,144396,1999%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,143928,2001%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.79,141548,1991%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.79,143992,1988%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,144824,2013%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:00.78,143356,1996%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.32,335224,1812%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.30,335820,1842%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.30,339320,1839%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.30,336764,1847%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.29,337588,1844%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.30,334104,1855%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.29,335976,1853%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.30,337068,1844%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.31,337116,1838%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:01.31,333840,1811%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,102280,2191%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,102728,2197%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.07,102212,2162%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,99992,2191%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,101392,2194%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,102668,2191%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.07,102664,2193%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.07,102148,2194%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.07,102908,2172%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:01.06,100680,2192%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.85,242168,1673%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.85,240304,1685%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.86,240256,1673%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.87,240784,1675%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.85,238420,1670%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.85,238020,1690%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.86,239628,1670%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.88,240992,1623%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.85,239988,1669%
+Summary Statistics,Benchmarking SEGUL,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:00.86,240492,1666%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:42.09,1243836,421%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.64,1243428,427%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.73,1245888,427%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.68,1244548,428%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.75,1245452,428%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.95,1243368,421%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:42.18,1243468,424%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.94,1245452,428%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.73,1245064,424%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:41.88,1245012,429%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.21,2022736,388%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.08,2022156,390%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.04,2022388,388%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:15.41,2022272,405%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:18.68,2022224,390%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.15,2022436,389%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:18.86,2022304,391%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.05,2024316,393%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:18.89,2022764,392%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,1:19.08,2024468,392%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:47.92,1476832,496%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.09,1475156,496%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.37,1476328,494%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.24,1474676,495%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.00,1475720,496%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.31,1475620,491%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.24,1473944,492%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.37,1476188,493%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.05,1475996,493%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:48.09,1473536,493%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.50,1005788,420%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.88,1006168,415%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.52,1005844,419%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:40.34,1007932,410%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:40.19,1005952,414%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.87,1007916,417%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:40.88,1007304,410%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:40.38,1005784,410%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.60,1006056,419%
+Summary Statistics,Benchmarking AMAS,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:39.15,1005952,419%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.45,47760,2275%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.13,46436,2257%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.23,46612,2254%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.23,47948,2269%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:25.84,46856,2274%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.23,46556,2272%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.14,46744,2277%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.24,46708,2257%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.13,46208,2280%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/esselstyn_2021_nexus_trimmed,0:26.33,46388,2281%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.45,47444,2288%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.25,47460,2297%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.65,47100,2295%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.66,47304,2292%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.05,47304,2296%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.56,47420,2297%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.45,47416,2282%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.55,47224,2293%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.35,48760,2299%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/oliveros_2019_80p_trimmed,0:35.15,47416,2294%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.35,46884,2294%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.34,47932,2312%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:33.15,46084,2304%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.14,47704,2312%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.65,47648,2309%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.55,46044,2309%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.85,46928,2306%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.75,46392,2297%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:33.24,45992,2301%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/jarvis_2014_uce_filtered_w_gator,0:32.24,46268,2309%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.46,66948,2285%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.48,68480,2280%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.35,68384,2278%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.38,66912,2278%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.46,67024,2284%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.36,66896,2294%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.95,68704,2270%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.35,66848,2297%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.26,66912,2270%
+Summary Statistics,Benchmarking Phyluce,openSUSE,AMD Ryzen 9 3900X 12-Core Processor,alignments/chan_2020_loci/,0:19.37,66772,2283%

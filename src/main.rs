@@ -42,7 +42,7 @@ fn parse_text<W: Write>(input: &Path, writer: &mut W, analysis: &str) -> Result<
     for rec in records.into_iter() {
         for res in rec.benchmark.dataset {
             for bench in res.result {
-                write!(writer, "{},", analysis)?;
+                write!(writer, "{},", match_analyses(analysis))?;
                 write!(writer, "{},", rec.benchmark.bench)?;
                 write!(writer, "{},", rec.os)?;
                 write!(writer, "{},", rec.cpu)?;
@@ -56,6 +56,17 @@ fn parse_text<W: Write>(input: &Path, writer: &mut W, analysis: &str) -> Result<
     }
 
     Ok(())
+}
+
+fn match_analyses(analysis: &str) -> &str {
+    match analysis {
+        "concat" => "Alignment Concatenation",
+        "convert" => "Alignment Conversion",
+        "summary" => "Summary Statistics",
+        "remove" => "Sequence Removal",
+        "split" => "Alignment Splitting",
+        _ => analysis,
+    }
 }
 
 struct BenchReader<R: Read> {
