@@ -1,4 +1,4 @@
-use std::io::prelude::*;
+use std::io::{prelude::*, BufWriter};
 use std::{fs::File, io::BufReader, path::Path};
 
 fn main() {
@@ -9,21 +9,33 @@ fn main() {
     // println!("{:?}", record);
 }
 
-fn parse_text(file_path: &Path) {
+fn parse_text(file_path: &Path) -> Result<()> {
     let file = File::open(file_path).unwrap();
     let reader = BufReader::new(file);
     let records = BenchReader::new(reader);
+    let output = File::create("data/result.csv").unwrap();
+    let mut writer = BufWriter::new(output);
+    writeln!(
+        writer,
+        "Benchmark,OS,CPU,Dataset,Execution_time,RAM_usage_kb,CPU_usage
+    "
+    )?;
     records.into_iter().for_each(|r| {
         println!();
         println!("CPU: {}", r.cpu);
         println!("OS: {}", r.os);
-        println!("Dataset: {}", r.benchmark.bench);
+        println!("Benchmark: {}", r.benchmark.bench);
         r.benchmark.dataset.iter().for_each(|d| {
             println!("Dataset: {}", d.name);
-            println!("Bench: {:?}", d.result);
+            println!("Bench Results");
+            println!("Bench counts: {}", d.result.len());
+            d.result.iter().for_each(|r| {
+                println!("{} {} {}", r.exec_time, r.mem_usage, r.cpu_usage);
+            });
         });
         println!();
     });
+    Ok(())
 }
 
 struct BenchReader<R: Read> {
@@ -56,20 +68,7 @@ impl<R: Read> BenchReader<R> {
                 self.cpu = String::from("Apple M1");
                 self.os = String::from("macOS");
             } else if line.starts_with("Benchmarking") {
-                if self.dataset.has_record() {
-                    let mut recs = Records::new();
-                    recs.cpu = self.cpu.clone();
-                    recs.os = self.os.clone();
-                    let mut bench = Benchmark::new();
-                    bench.bench = self.bench_name.clone();
-                    bench.dataset.push(self.dataset.clone());
-                    recs.benchmark = bench;
-                    self.dataset.clear();
-                    self.bench_name = line.to_string();
-                    return Some(recs);
-                } else {
-                    self.bench_name = line.to_string();
-                }
+                self.bench_name = line.to_string();
             }
 
             if self.lcounts >= 1 {
@@ -84,12 +83,21 @@ impl<R: Read> BenchReader<R> {
 
             if !self.bench_name.is_empty() {
                 if line.starts_with("Dataset") {
-                    self.dataset.name = line.split(":").nth(1).unwrap().trim().to_string();
                     self.lcounts = 1;
+                    self.dataset.name = line.split(":").nth(1).unwrap().trim().to_string();
                 }
 
-                if self.lcounts == 10 {
+                if self.lcounts > 10 && !line.trim().is_empty() {
+                    let mut recs = Records::new();
+                    recs.cpu = self.cpu.clone();
+                    recs.os = self.os.clone();
+                    let mut bench = Benchmark::new();
+                    bench.bench = self.bench_name.clone();
+                    bench.dataset.push(self.dataset.clone());
+                    recs.benchmark = bench;
+                    self.dataset.clear();
                     self.lcounts = 0;
+                    return Some(recs);
                 }
             }
         }
