@@ -1,40 +1,60 @@
+use std::io::Result;
 use std::io::{prelude::*, BufWriter};
+use std::path::PathBuf;
 use std::{fs::File, io::BufReader, path::Path};
 
 fn main() {
-    // let path = "data/*.txt";
-    // let mut files = glob::glob(path).unwrap();
-    let test = Path::new("data/convert_bench_raw_aa_OpenSUSE_2022-10-05.txt");
-    parse_text(test);
-    // println!("{:?}", record);
+    let path = "data/*.txt";
+    let files = glob::glob(path)
+        .expect("Failed globbing files")
+        .filter_map(|ok| ok.ok())
+        .collect::<Vec<PathBuf>>();
+
+    let mut writer = write_records().expect("Failed writing records");
+    files.iter().for_each(|f| {
+        let analysis = f
+            .file_stem()
+            .expect("Failed parsing file stem")
+            .to_str()
+            .expect("Failed parsing file stem to str")
+            .split('_')
+            .nth(0)
+            .unwrap();
+        parse_text(f, &mut writer, analysis).expect("Failed to parse text");
+    })
 }
 
-fn parse_text(file_path: &Path) -> Result<()> {
-    let file = File::open(file_path).unwrap();
-    let reader = BufReader::new(file);
-    let records = BenchReader::new(reader);
-    let output = File::create("data/result.csv").unwrap();
-    let mut writer = BufWriter::new(output);
+fn write_records() -> Result<BufWriter<File>> {
+    let file = File::create("data/result.csv")?;
+    let mut writer = BufWriter::new(file);
     writeln!(
         writer,
-        "Benchmark,OS,CPU,Dataset,Execution_time,RAM_usage_kb,CPU_usage
+        "Benchmark,type,OS,CPU,Dataset,Execution_time,RAM_usage_kb,CPU_usage
     "
     )?;
-    records.into_iter().for_each(|r| {
-        println!();
-        println!("CPU: {}", r.cpu);
-        println!("OS: {}", r.os);
-        println!("Benchmark: {}", r.benchmark.bench);
-        r.benchmark.dataset.iter().for_each(|d| {
-            println!("Dataset: {}", d.name);
-            println!("Bench Results");
-            println!("Bench counts: {}", d.result.len());
-            d.result.iter().for_each(|r| {
-                println!("{} {} {}", r.exec_time, r.mem_usage, r.cpu_usage);
-            });
-        });
-        println!();
-    });
+    Ok(writer)
+}
+
+fn parse_text<W: Write>(input: &Path, writer: &mut W, analysis: &str) -> Result<()> {
+    let file = File::open(input).unwrap();
+    let reader = BufReader::new(file);
+    let records = BenchReader::new(reader);
+    for rec in records.into_iter() {
+        for res in rec.benchmark.dataset {
+            for bench in res.result {
+                write!(writer, "{},", analysis)?;
+                write!(writer, "{},", rec.benchmark.bench)?;
+                write!(writer, "{},", rec.os)?;
+                write!(writer, "{},", rec.cpu)?;
+                write!(writer, "{},", res.name)?;
+                write!(writer, "{},", bench.exec_time)?;
+                write!(writer, "{},", bench.mem_usage)?;
+                write!(writer, "{}", bench.cpu_usage)?;
+                writeln!(writer)?;
+            }
+        }
+    }
+
     Ok(())
 }
 
