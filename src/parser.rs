@@ -35,7 +35,7 @@ impl<'a> Parser<'a> {
         let mut writer = BufWriter::new(file);
         writeln!(
             writer,
-            "Apps,Version,Pubs,Datasets,ntax,alignment_counts,site_counts,Datatype,Analyses,OS_name,CPU,Benchmark_dates,Latest_bench,Execution_time,RAM_usage_kb,CPU_usage
+            "Apps,Version,Pubs,Datasets,ntax,alignment_counts,site_counts,Datatype,Analyses,Platform,OS_name,CPU,Benchmark_dates,Latest_bench,Execution_time,RAM_usage_kb,CPU_usage
         "
         )?;
         Ok(writer)
@@ -72,6 +72,7 @@ impl<'a> Parser<'a> {
                         write!(writer, "{},", pubs.pubs.site_counts)?;
                         write!(writer, "{},", pubs.pubs.datatype)?;
                         write!(writer, "{},", self.match_analyses(analysis))?;
+                        write!(writer, "{},", parse_platform(&rec.cpu))?;
                         write!(writer, "{},", rec.os)?;
                         write!(writer, "{},", rec.cpu)?;
                         write!(writer, "{},", date)?;
@@ -289,7 +290,10 @@ impl<R: Read> BenchReader<R> {
                 self.os = String::from("macOS");
             }
             line if line.contains("Microsoft") => self.os = String::from("Windows (WSL)"),
-            line if line.contains("X86_64") => self.os = String::from("macOS (Mb Air)"),
+            line if line.contains("X86_64") => {
+                self.os = String::from("macOS (Mb Air)");
+                self.cpu = String::from("Intel Core i5-4260U")
+            }
             line if line.starts_with("Benchmarking") => {
                 self.bench_name = line.to_string();
             }
@@ -343,6 +347,18 @@ fn parse_date(file_stem: &str) -> String {
     }
 }
 
+fn parse_platform(cpu_model: &str) -> String {
+    lazy_static! {
+        static ref RE: Regex = Regex::new(r"i(\d{1})-(\d{4}U)").expect("Failed to compile regex");
+    };
+
+    if RE.is_match(cpu_model) {
+        String::from("Laptop")
+    } else {
+        String::from("Desktop")
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -352,5 +368,12 @@ mod tests {
         let file_stem = "concat_bench_raw_aa_OpenSUSE_2022-10-04.txt";
         let date = parse_date(file_stem);
         assert_eq!(date, "10/04/2022");
+    }
+
+    #[test]
+    fn test_parse_platform() {
+        let cpu_model = "Intel(R) Core(TM) i5-4260U CPU @ 1.40GHz";
+        let platform = parse_platform(cpu_model);
+        assert_eq!(platform, "Laptop");
     }
 }
