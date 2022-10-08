@@ -4,6 +4,9 @@ use std::io::{prelude::*, BufWriter};
 use std::path::PathBuf;
 use std::{fs::File, io::BufReader, path::Path};
 
+use lazy_static::lazy_static;
+use regex::Regex;
+
 use crate::types::{Apps, Benchmark, BenchmarkResult, Dataset, Pubs, Records};
 
 pub struct Parser<'a> {
@@ -19,15 +22,7 @@ impl<'a> Parser<'a> {
     pub fn parse_benchmark(&self) -> Result<()> {
         let mut writer = self.write_records().expect("Failed writing records");
         self.input.iter().for_each(|f| {
-            let analysis = f
-                .file_stem()
-                .expect("Failed parsing file stem")
-                .to_str()
-                .expect("Failed parsing file stem to str")
-                .split('_')
-                .nth(0)
-                .unwrap();
-            self.parse_file(f, &mut writer, analysis)
+            self.parse_file(f, &mut writer)
                 .expect("Failed to parse text");
         });
         Ok(())
@@ -40,17 +35,24 @@ impl<'a> Parser<'a> {
         let mut writer = BufWriter::new(file);
         writeln!(
             writer,
-            "Apps,Version,Pubs,ntax,alignment_counts,site_counts,Datatype,Analyses,OS,CPU,Execution_time,RAM_usage_kb,CPU_usage
+            "Apps,Version,Pubs,Datasets,ntax,alignment_counts,site_counts,Datatype,Analyses,OS,CPU,Benchmark_dates,Latest_bench,Execution_time,RAM_usage_kb,CPU_usage
         "
         )?;
         Ok(writer)
     }
 
-    fn parse_file<W: Write>(&self, input: &Path, writer: &mut W, analysis: &str) -> Result<()> {
+    fn parse_file<W: Write>(&self, input: &Path, writer: &mut W) -> Result<()> {
         let file = File::open(input)?;
         let reader = BufReader::new(file);
         let records = BenchReader::new(reader);
-        for rec in records.into_iter() {
+        let file_stem = input
+            .file_stem()
+            .expect("Failed parsing file stem")
+            .to_str()
+            .expect("Failed parsing file stem to str");
+        let analysis = self.parse_analysis_name(file_stem);
+        let date = parse_date(file_stem);
+        for rec in records {
             for dataset in rec.benchmark.dataset {
                 if dataset.result.len() != 10 {
                     panic!(
@@ -64,6 +66,7 @@ impl<'a> Parser<'a> {
                         write!(writer, "{},", apps.name)?;
                         write!(writer, "{},", apps.version)?;
                         write!(writer, "{},", pubs.pubs.name)?;
+                        write!(writer, "{} ({}),", pubs.pubs.name, pubs.pubs.datatype)?;
                         write!(writer, "{},", pubs.pubs.ntax)?;
                         write!(writer, "{},", pubs.pubs.aln_counts)?;
                         write!(writer, "{},", pubs.pubs.site_counts)?;
@@ -71,6 +74,8 @@ impl<'a> Parser<'a> {
                         write!(writer, "{},", self.match_analyses(analysis))?;
                         write!(writer, "{},", rec.os)?;
                         write!(writer, "{},", rec.cpu)?;
+                        write!(writer, "{},", date)?;
+                        write!(writer, "TRUE,")?;
                         write!(writer, "{},", bench.exec_time)?;
                         write!(writer, "{},", bench.mem_usage)?;
                         write!(writer, "{}", bench.cpu_usage)?;
@@ -81,6 +86,13 @@ impl<'a> Parser<'a> {
         }
 
         Ok(())
+    }
+
+    fn parse_analysis_name(&self, input: &'a str) -> &'a str {
+        input
+            .split('_')
+            .next()
+            .expect("Failed parsing analysis name")
     }
 
     fn parse_pubs(&self, pubs: &str) -> PubRecord {
@@ -187,7 +199,7 @@ impl PubRecord {
         self.pubs.ntax = 90;
         self.pubs.aln_counts = 5162;
         self.pubs.site_counts = 3050198;
-        self.pubs.datatype = String::from("DNA");
+        self.pubs.datatype = String::from("AA");
     }
 
     fn pub_shen(&mut self) {
@@ -195,7 +207,7 @@ impl PubRecord {
         self.pubs.ntax = 343;
         self.pubs.aln_counts = 2408;
         self.pubs.site_counts = 1162805;
-        self.pubs.datatype = String::from("DNA");
+        self.pubs.datatype = String::from("AA");
     }
 
     fn pub_unknown(&mut self, pubs: &str) {
@@ -232,18 +244,7 @@ impl<R: Read> BenchReader<R> {
 
     fn next_record(&mut self) -> Option<Records> {
         while let Some(Ok(line)) = self.reader.by_ref().lines().next() {
-            if line.starts_with("Model") {
-                self.cpu = line.split(":").nth(1).unwrap().trim().to_string();
-                self.os = String::from("openSUSE");
-            } else if line.starts_with("Darwin") {
-                self.cpu = String::from("Apple M1");
-                self.os = String::from("macOS");
-            } else if line.starts_with("Benchmarking") {
-                self.bench_name = line.to_string();
-            } else if line.starts_with("segul") {
-                self.segul_version = line.trim().split_whitespace().nth(1).unwrap().to_string();
-            }
-
+            self.match_line_keyword(&line);
             if self.lcounts >= 1 {
                 self.lcounts += 1;
                 let mut bench = BenchmarkResult::new();
@@ -257,7 +258,7 @@ impl<R: Read> BenchReader<R> {
             if !self.bench_name.is_empty() {
                 if line.starts_with("Dataset") {
                     self.lcounts = 1;
-                    self.dataset.name = line.split(":").nth(1).unwrap().trim().to_string();
+                    self.dataset.name = self.capture_name(&line);
                 }
 
                 if self.lcounts > 10 && !line.trim().is_empty() {
@@ -275,6 +276,28 @@ impl<R: Read> BenchReader<R> {
         } else {
             None
         }
+    }
+
+    fn match_line_keyword(&mut self, line: &str) {
+        if line.starts_with("Model") {
+            self.cpu = self.capture_name(line);
+            self.os = String::from("openSUSE");
+        } else if line.starts_with("Darwin") {
+            self.cpu = String::from("Apple M1");
+            self.os = String::from("macOS");
+        } else if line.starts_with("Benchmarking") {
+            self.bench_name = line.to_string();
+        } else if line.starts_with("segul") {
+            self.segul_version = line.split_whitespace().nth(1).unwrap().to_string();
+        }
+    }
+
+    fn capture_name(&self, line: &str) -> String {
+        line.split(':')
+            .nth(1)
+            .expect("File capturing name")
+            .trim()
+            .to_string()
     }
 
     fn parse_records(&mut self) -> Records {
@@ -297,5 +320,29 @@ impl<R: Read> Iterator for BenchReader<R> {
 
     fn next(&mut self) -> Option<Self::Item> {
         self.next_record()
+    }
+}
+
+fn parse_date(file_stem: &str) -> String {
+    lazy_static! {
+        static ref RE: Regex =
+            Regex::new(r"(?P<y>\d{4})-(?P<m>\d{2})-(?P<d>\d{2})").expect("Failed to compile regex");
+    };
+
+    match RE.captures(file_stem) {
+        Some(caps) => RE.replace_all(&caps[0], "$m/$d/$y").to_string(),
+        None => String::from(file_stem),
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_parse_date() {
+        let file_stem = "concat_bench_raw_aa_OpenSUSE_2022-10-04.txt";
+        let date = parse_date(file_stem);
+        assert_eq!(date, "10/04/2022");
     }
 }

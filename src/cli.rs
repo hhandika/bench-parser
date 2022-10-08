@@ -58,6 +58,6 @@ pub fn parse_input(matches: &ArgMatches) -> Vec<PathBuf> {
     }
 }
 
-pub fn parse_output<'a>(matches: &'a ArgMatches) -> &'a Path {
+pub fn parse_output(matches: &ArgMatches) -> &Path {
     Path::new(matches.value_of("output").expect("No output provided"))
 }
