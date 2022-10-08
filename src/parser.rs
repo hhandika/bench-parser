@@ -35,7 +35,7 @@ impl<'a> Parser<'a> {
         let mut writer = BufWriter::new(file);
         writeln!(
             writer,
-            "Apps,Version,Pubs,Datasets,ntax,alignment_counts,site_counts,Datatype,Analyses,OS,CPU,Benchmark_dates,Latest_bench,Execution_time,RAM_usage_kb,CPU_usage
+            "Apps,Version,Pubs,Datasets,ntax,alignment_counts,site_counts,Datatype,Analyses,OS_name,CPU,Benchmark_dates,Latest_bench,Execution_time,RAM_usage_kb,CPU_usage
         "
         )?;
         Ok(writer)
@@ -279,16 +279,24 @@ impl<R: Read> BenchReader<R> {
     }
 
     fn match_line_keyword(&mut self, line: &str) {
-        if line.starts_with("Model") {
-            self.cpu = self.capture_name(line);
-            self.os = String::from("openSUSE");
-        } else if line.starts_with("Darwin") {
-            self.cpu = String::from("Apple M1");
-            self.os = String::from("macOS");
-        } else if line.starts_with("Benchmarking") {
-            self.bench_name = line.to_string();
-        } else if line.starts_with("segul") {
-            self.segul_version = line.split_whitespace().nth(1).unwrap().to_string();
+        match line {
+            line if line.starts_with("Model") => {
+                self.cpu = self.capture_name(line);
+                self.os = String::from("Linux");
+            }
+            line if line.starts_with("Darwin") => {
+                self.cpu = String::from("Apple M1");
+                self.os = String::from("macOS");
+            }
+            line if line.contains("Microsoft") => self.os = String::from("Windows (WSL)"),
+            line if line.contains("X86_64") => self.os = String::from("macOS (Mb Air)"),
+            line if line.starts_with("Benchmarking") => {
+                self.bench_name = line.to_string();
+            }
+            line if line.starts_with("segul") => {
+                self.segul_version = line.split_whitespace().nth(1).unwrap().to_string();
+            }
+            _ => (),
         }
     }
 
