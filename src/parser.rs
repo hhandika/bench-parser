@@ -120,7 +120,7 @@ impl<'a> Parser<'a> {
                 } else {
                     apps.name = String::from("SEGUL");
                 }
-                apps.version = String::from(version);
+                apps.version = format!("v{}", version);
             }
             app if app.contains("AMAS") => {
                 if app.contains("align") {
@@ -133,6 +133,10 @@ impl<'a> Parser<'a> {
             app if app.contains("Phyluce") => {
                 apps.name = String::from("Phyluce");
                 apps.version = String::from("v1.7.1");
+            }
+            app if app.contains("goalign") => {
+                apps.name = String::from("goalign");
+                apps.version = String::from("v0.3.5");
             }
             _ => {
                 apps.name = String::from(app);
