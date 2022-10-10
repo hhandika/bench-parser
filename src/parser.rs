@@ -4,6 +4,7 @@ use std::io::{prelude::*, BufWriter};
 use std::path::PathBuf;
 use std::{fs::File, io::BufReader, path::Path};
 
+use chrono::NaiveTime;
 use lazy_static::lazy_static;
 use regex::Regex;
 
@@ -35,7 +36,11 @@ impl<'a> Parser<'a> {
         let mut writer = BufWriter::new(file);
         writeln!(
             writer,
-            "Apps,Version,Pubs,Datasets,ntax,alignment_counts,site_counts,Datatype,Analyses,Platform,OS_name,CPU,Benchmark_dates,Latest_bench,Execution_time,RAM_usage_kb,CPU_usage
+            "Apps,Version,\
+            Pubs,Datasets,ntax,alignment_counts,site_counts,\
+            Datatype,Analyses,Platform,OS_name,CPU,Benchmark_dates,Latest_bench,\
+            Execution_time,RAM_usage_kb,percent_CPU_usage,\
+            execution_time_secs,RAM_usage_Mb\
         "
         )?;
         Ok(writer)
@@ -79,7 +84,9 @@ impl<'a> Parser<'a> {
                         write!(writer, "TRUE,")?;
                         write!(writer, "{},", bench.exec_time)?;
                         write!(writer, "{},", bench.mem_usage)?;
-                        write!(writer, "{}", bench.cpu_usage)?;
+                        write!(writer, "{}", bench.cpu_usage.replace('%', ""))?;
+                        write!(writer, "{}", self.parse_time_to_secs(&bench.exec_time))?;
+                        write!(writer, "{}", self.convert_kb_to_mb(&bench.mem_usage))?;
                         writeln!(writer)?;
                     }
                 }
@@ -87,6 +94,16 @@ impl<'a> Parser<'a> {
         }
 
         Ok(())
+    }
+
+    fn convert_kb_to_mb(&self, kb: &str) -> String {
+        let mb = kb.parse::<f64>().expect("Failed parsing kb to f64") / 1024.0;
+        mb.to_string()
+    }
+
+    fn parse_time_to_secs(&self, exe_time: &str) -> String {
+        let time = NaiveTime::parse_from_str(exe_time, "%M:%S%.f").expect("Failed parsing time");
+        time.format("%S").to_string()
     }
 
     fn parse_analysis_name(&self, input: &'a str) -> &'a str {
@@ -379,5 +396,13 @@ mod tests {
         let cpu_model = "Intel(R) Core(TM) i5-4260U CPU @ 1.40GHz";
         let platform = parse_platform(cpu_model);
         assert_eq!(platform, "Laptop");
+    }
+
+    #[test]
+    fn parse_time_to_secs() {
+        let path = [PathBuf::from(".")];
+        let parser = Parser::new(&path, Path::new("results.csv"));
+        let time = parser.parse_time_to_secs("00:03");
+        assert_eq!(time, "42");
     }
 }
