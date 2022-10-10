@@ -84,8 +84,8 @@ impl<'a> Parser<'a> {
                         write!(writer, "TRUE,")?;
                         write!(writer, "{},", bench.exec_time)?;
                         write!(writer, "{},", bench.mem_usage)?;
-                        write!(writer, "{}", bench.cpu_usage.replace('%', ""))?;
-                        write!(writer, "{}", self.parse_time_to_secs(&bench.exec_time))?;
+                        write!(writer, "{},", bench.cpu_usage.replace('%', ""))?;
+                        write!(writer, "{},", self.parse_time_to_secs(&bench.exec_time))?;
                         write!(writer, "{}", self.convert_kb_to_mb(&bench.mem_usage))?;
                         writeln!(writer)?;
                     }
