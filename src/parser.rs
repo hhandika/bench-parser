@@ -102,8 +102,15 @@ impl<'a> Parser<'a> {
     }
 
     fn parse_time_to_secs(&self, exe_time: &str) -> String {
-        let time = NaiveTime::parse_from_str(exe_time, "%M:%S%.f").expect("Failed parsing time");
-        time.format("%S").to_string()
+        let count = exe_time.matches(':').count();
+        let formatted_time = if count == 1 {
+            format!("00:{}", exe_time)
+        } else {
+            exe_time.to_string()
+        };
+        let time =
+            NaiveTime::parse_from_str(&formatted_time, "%H:%M:%S%.f").expect("Failed parsing time");
+        time.format("%S%.f").to_string()
     }
 
     fn parse_analysis_name(&self, input: &'a str) -> &'a str {
@@ -402,7 +409,7 @@ mod tests {
     fn parse_time_to_secs() {
         let path = [PathBuf::from(".")];
         let parser = Parser::new(&path, Path::new("results.csv"));
-        let time = parser.parse_time_to_secs("00:03");
+        let time = parser.parse_time_to_secs("00:42.0");
         assert_eq!(time, "42");
     }
 }
