@@ -93,7 +93,7 @@ impl<'a> Parser<'a> {
                 }
             }
         }
-        println!("Finished parsing {}", input.display());
+        println!("Finished parsing {} as {}", input.display(), analysis);
 
         Ok(())
     }
