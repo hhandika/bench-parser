@@ -61,10 +61,12 @@ impl<'a> Parser<'a> {
         let date = parse_date(&file_stem);
         for rec in records {
             for dataset in rec.benchmark.dataset {
-                if dataset.result.len() != 10 {
+                let dataset_size = dataset.result.len();
+                if dataset_size != 10  || !dataset.has_record() {
                     panic!(
-                        "Invalid dataset result length {}: {}",
-                        rec.benchmark.bench, dataset.name
+                        "Invalid dataset result of {} for {}. \
+                        Expected 10 records. Found : {}",
+                        rec.benchmark.bench, dataset.name, dataset_size
                     );
                 } else {
                     for bench in dataset.result {
@@ -99,9 +101,8 @@ impl<'a> Parser<'a> {
         Ok(())
     }
 
-    fn convert_kb_to_mb(&self, kb: &str) -> String {
-        let mb = kb.parse::<f64>().expect("Failed parsing kb to f64") / 1024.0;
-        mb.to_string()
+    fn convert_kb_to_mb(&self, kb: &str) -> f32 {
+        kb.parse::<f32>().expect("Failed parsing kb to f64") / 1024.0
     }
 
     fn parse_time_to_secs(&self, exe_time: &str) -> f32 {
