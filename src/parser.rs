@@ -147,7 +147,7 @@ impl<'a> Parser<'a> {
                 apps.version = format!("v{}", version);
             }
             app if app.contains("AMAS") => {
-                if app.contains("aligned") {
+                if app.contains("Aligned") {
                     apps.name = String::from("AMAS (--check-align)");
                 } else {
                     apps.name = String::from("AMAS");
