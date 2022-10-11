@@ -22,6 +22,7 @@ impl<'a> Parser<'a> {
 
     pub fn parse_benchmark(&self) -> Result<()> {
         let mut writer = self.write_records().expect("Failed writing records");
+        self.print_input();
         self.input.iter().for_each(|f| {
             self.parse_file(f, &mut writer)
                 .expect("Failed to parse text");
@@ -182,6 +183,10 @@ impl<'a> Parser<'a> {
             "split" => "Alignment Splitting".to_string(),
             _ => analysis.to_string(),
         }
+    }
+
+    fn print_input(&self) {
+        println!("File Counts: {}", self.input.len());
     }
 }
 
@@ -394,6 +399,13 @@ fn parse_platform(cpu_model: &str) -> String {
 mod tests {
     use super::*;
 
+    macro_rules! initialize_parser {
+        ($parser: ident) => {
+            let path = [PathBuf::from(".")];
+            let $parser = Parser::new(&path, Path::new("results.csv"));
+        };
+    }
+
     #[test]
     fn test_parse_date() {
         let file_stem = "concat_bench_raw_aa_OpenSUSE_2022-10-04.txt";
@@ -410,9 +422,16 @@ mod tests {
 
     #[test]
     fn parse_time_to_secs() {
-        let path = [PathBuf::from(".")];
-        let parser = Parser::new(&path, Path::new("results.csv"));
+        initialize_parser!(parser);
         let time = parser.parse_time_to_secs("00:42.0");
         assert_eq!(time, 42.0);
+    }
+
+    #[test]
+    fn test_analysis_parsing() {
+        initialize_parser!(parser);
+        let file_name = "remove_bench_raw_aa_OpenSUSE_2022-10-04.txt";
+        let name = parser.parse_analysis_name(file_name);
+        assert_eq!("Sequence Removal", parser.match_analyses(name));
     }
 }
