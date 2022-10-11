@@ -57,7 +57,7 @@ impl<'a> Parser<'a> {
             .to_str()
             .expect("Failed parsing file stem to str");
         let analysis = self.parse_analysis_name(file_stem);
-        let date = parse_date(file_stem);
+        let date = parse_date(&file_stem);
         for rec in records {
             for dataset in rec.benchmark.dataset {
                 if dataset.result.len() != 10 {
@@ -93,6 +93,7 @@ impl<'a> Parser<'a> {
                 }
             }
         }
+        println!("Finished parsing {}", input.display());
 
         Ok(())
     }
@@ -433,5 +434,22 @@ mod tests {
         let file_name = "remove_bench_raw_aa_OpenSUSE_2022-10-04.txt";
         let name = parser.parse_analysis_name(file_name);
         assert_eq!("Sequence Removal", parser.match_analyses(name));
+    }
+
+    #[test]
+    fn test_bench_parsing() {
+        let input = "tests/data/*.txt";
+        let files: Vec<PathBuf> = glob::glob(input)
+            .expect("Failed to read glob pattern")
+            .filter_map(|ok| ok.ok())
+            .collect();
+        let parser = Parser::new(&files, Path::new("results.csv"));
+        let mut analysis = files
+            .iter()
+            .map(|f| parser.parse_analysis_name(f.file_name().unwrap().to_str().unwrap()))
+            .map(|n| parser.match_analyses(n))
+            .collect::<Vec<_>>();
+        analysis.dedup();
+        assert_eq!(5, analysis.len());
     }
 }
