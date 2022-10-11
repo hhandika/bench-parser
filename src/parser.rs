@@ -37,10 +37,10 @@ impl<'a> Parser<'a> {
         writeln!(
             writer,
             "Apps,Version,\
-            Pubs,Datasets,ntax,alignment_counts,site_counts,\
+            Pubs,Datasets,NTAX,Alignment_counts,Site_counts,\
             Datatype,Analyses,Platform,OS_name,CPU,Benchmark_dates,Latest_bench,\
-            Execution_time,RAM_usage_kb,percent_CPU_usage,\
-            execution_time_secs,RAM_usage_Mb\
+            Execution_time,RAM_usage_kb,Percent_CPU_usage,\
+            Execution_time_secs,RAM_usage_Mb\
         "
         )?;
         Ok(writer)
