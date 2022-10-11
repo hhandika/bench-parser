@@ -57,6 +57,7 @@ impl<'a> Parser<'a> {
             .to_str()
             .expect("Failed parsing file stem to str");
         let analysis = self.parse_analysis_name(file_stem);
+        let analysis_name = self.match_analyses(analysis);
         let date = parse_date(&file_stem);
         for rec in records {
             for dataset in rec.benchmark.dataset {
@@ -77,7 +78,7 @@ impl<'a> Parser<'a> {
                         write!(writer, "{},", pubs.pubs.aln_counts)?;
                         write!(writer, "{},", pubs.pubs.site_counts)?;
                         write!(writer, "{},", pubs.pubs.datatype)?;
-                        write!(writer, "{},", self.match_analyses(analysis))?;
+                        write!(writer, "{},", analysis_name)?;
                         write!(writer, "{},", parse_platform(&rec.cpu))?;
                         write!(writer, "{},", rec.os)?;
                         write!(writer, "{},", rec.cpu)?;
@@ -93,7 +94,7 @@ impl<'a> Parser<'a> {
                 }
             }
         }
-        println!("Finished parsing {} as {}", input.display(), analysis);
+        println!("Finished parsing {} as {}", input.display(), analysis_name);
 
         Ok(())
     }
