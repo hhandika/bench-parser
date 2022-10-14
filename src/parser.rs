@@ -62,7 +62,7 @@ impl<'a> Parser<'a> {
         for rec in records {
             for dataset in rec.benchmark.dataset {
                 let dataset_size = dataset.result.len();
-                if dataset_size != 10  || !dataset.has_record() {
+                if dataset_size != 10 || !dataset.has_record() {
                     panic!(
                         "Invalid dataset result of {} for {}. \
                         Expected 10 records. Found : {}",
@@ -156,6 +156,8 @@ impl<'a> Parser<'a> {
             app if app.contains("AMAS") => {
                 if app.contains("Aligned") {
                     apps.name = String::from("AMAS (--check-align)");
+                } else if app.contains("--remove-empty") {
+                    apps.name = String::from("AMAS (--remove-empty)");
                 } else {
                     apps.name = String::from("AMAS");
                 }
