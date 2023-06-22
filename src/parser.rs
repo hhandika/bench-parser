@@ -183,7 +183,7 @@ impl<'a> Parser<'a> {
             }
             app if app.contains("goalign") => {
                 if app.contains("multi-core") {
-                    apps.name = String::from("goalign (--multi-core)");
+                    apps.name = String::from("goalign (multi-core)");
                 } else {
                     apps.name = String::from("goalign (single-core)");
                 }
