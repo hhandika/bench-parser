@@ -154,7 +154,7 @@ impl<'a> Parser<'a> {
                 apps.version = format!("v{}", version);
             }
             app if app.contains("AMAS") => {
-                if app.contains("Aligned") {
+                if app.contains("align") {
                     apps.name = String::from("AMAS (--check-align)");
                 } else if app.contains("--remove-empty") {
                     apps.name = String::from("AMAS (--remove-empty)");
@@ -168,8 +168,11 @@ impl<'a> Parser<'a> {
                 apps.version = String::from("v1.7.1");
             }
             app if app.contains("goalign") => {
-                apps.name = String::from("goalign");
-                apps.version = String::from("v0.3.5");
+                if app.contains("multi-core") {
+                    apps.name = String::from("goalign (--multi-core)");
+                } else {
+                    apps.name = String::from("goalign (single-core)");
+                }
             }
             _ => {
                 apps.name = String::from(app);
