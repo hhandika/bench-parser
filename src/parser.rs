@@ -4,7 +4,6 @@ use std::io::{prelude::*, BufWriter};
 use std::path::PathBuf;
 use std::{fs::File, io::BufReader, path::Path};
 
-use chrono::NaiveTime;
 use lazy_static::lazy_static;
 use regex::Regex;
 
@@ -105,19 +104,34 @@ impl<'a> Parser<'a> {
         kb.parse::<f32>().expect("Failed parsing kb to f64") / 1024.0
     }
 
-    fn parse_time_to_secs(&self, exe_time: &str) -> f32 {
-        let count = exe_time.matches(':').count();
-        let formatted_time = if count == 1 {
-            format!("00:{}", exe_time)
-        } else {
-            exe_time.to_string()
-        };
-        let time =
-            NaiveTime::parse_from_str(&formatted_time, "%H:%M:%S%.f").expect("Failed parsing time");
-        time.format("%S%.f")
-            .to_string()
-            .parse::<f32>()
-            .expect("Failed parsing time to f32")
+    fn parse_time_to_secs(&self, exe_time: &str) -> f64 {
+        let splitted_time: Vec<&str> = exe_time.split(':').collect();
+        match splitted_time.len() {
+            1 => splitted_time[0].parse().expect("Failed parsing seconds"),
+            2 => {
+                splitted_time[0]
+                    .parse::<f64>()
+                    .expect("Failed parsing minutes")
+                    * 60.0
+                    + splitted_time[1]
+                        .parse::<f64>()
+                        .expect("Failed parsing seconds")
+            }
+            3 => {
+                splitted_time[0]
+                    .parse::<f64>()
+                    .expect("Failed parsing hours")
+                    * 3600.0
+                    + splitted_time[1]
+                        .parse::<f64>()
+                        .expect("Failed parsing minutes")
+                        * 60.0
+                    + splitted_time[2]
+                        .parse::<f64>()
+                        .expect("Failed parsing seconds")
+            }
+            _ => panic!("Invalid time format"),
+        }
     }
 
     fn parse_analysis_name(&self, input: &'a str) -> &'a str {
@@ -432,7 +446,9 @@ mod tests {
     fn parse_time_to_secs() {
         initialize_parser!(parser);
         let time = parser.parse_time_to_secs("00:42.0");
+        let time_minute = parser.parse_time_to_secs("01:30.00");
         assert_eq!(time, 42.0);
+        assert_eq!(time_minute, 90.0);
     }
 
     #[test]
