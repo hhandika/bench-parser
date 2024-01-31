@@ -12,11 +12,16 @@ use crate::types::{Apps, Benchmark, BenchmarkResult, Dataset, Pubs, Records};
 pub struct Parser<'a> {
     pub input: &'a [PathBuf],
     pub output: &'a Path,
+    pub dataset_size: usize,
 }
 
 impl<'a> Parser<'a> {
-    pub fn new(input: &'a [PathBuf], output: &'a Path) -> Self {
-        Self { input, output }
+    pub fn new(input: &'a [PathBuf], output: &'a Path, dataset_size: usize) -> Self {
+        Self {
+            input,
+            output,
+            dataset_size,
+        }
     }
 
     pub fn parse_benchmark(&self) -> Result<()> {
@@ -49,7 +54,7 @@ impl<'a> Parser<'a> {
     fn parse_file<W: Write>(&self, input: &Path, writer: &mut W) -> Result<()> {
         let file = File::open(input)?;
         let reader = BufReader::new(file);
-        let records = BenchReader::new(reader);
+        let records = BenchReader::new(reader, self.dataset_size);
         let file_stem = input
             .file_stem()
             .expect("Failed parsing file stem")
@@ -61,7 +66,7 @@ impl<'a> Parser<'a> {
         for rec in records {
             for dataset in rec.benchmark.dataset {
                 let dataset_size = dataset.result.len();
-                if dataset_size != 10 || !dataset.has_record() {
+                if dataset_size != self.dataset_size || !dataset.has_record() {
                     panic!(
                         "Invalid dataset result of {} for {}. \
                         Expected 10 records. Found : {}",
@@ -286,10 +291,11 @@ struct BenchReader<R: Read> {
     segul_version: String,
     dataset: Dataset,
     lcounts: usize,
+    dataset_size: usize,
 }
 
 impl<R: Read> BenchReader<R> {
-    fn new(reader: R) -> Self {
+    fn new(reader: R, dataset_size: usize) -> Self {
         Self {
             reader: BufReader::new(reader),
             cpu: String::new(),
@@ -298,6 +304,7 @@ impl<R: Read> BenchReader<R> {
             segul_version: String::new(),
             dataset: Dataset::new(),
             lcounts: 0,
+            dataset_size: dataset_size,
         }
     }
 
@@ -320,7 +327,7 @@ impl<R: Read> BenchReader<R> {
                     self.dataset.name = self.capture_name(&line);
                 }
 
-                if self.lcounts > 10 && !line.trim().is_empty() {
+                if self.lcounts > self.dataset_size && !line.trim().is_empty() {
                     let recs = self.parse_records();
                     self.lcounts = 0;
                     return Some(recs);
@@ -424,7 +431,7 @@ mod tests {
     macro_rules! initialize_parser {
         ($parser: ident) => {
             let path = [PathBuf::from(".")];
-            let $parser = Parser::new(&path, Path::new("results.csv"));
+            let $parser = Parser::new(&path, Path::new("results.csv"), 5);
         };
     }
 
@@ -466,7 +473,7 @@ mod tests {
             .expect("Failed to read glob pattern")
             .filter_map(|ok| ok.ok())
             .collect();
-        let parser = Parser::new(&files, Path::new("results.csv"));
+        let parser = Parser::new(&files, Path::new("results.csv"), 5);
         let mut analysis = files
             .iter()
             .map(|f| parser.parse_analysis_name(f.file_name().unwrap().to_str().unwrap()))

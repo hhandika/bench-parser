@@ -28,6 +28,14 @@ pub fn parser_arg() -> ArgMatches {
                 .default_value("result")
                 .takes_value(true),
         )
+        .arg(
+            Arg::new("size")
+                .short('s')
+                .long("size")
+                .help("Dataset size")
+                .default_value("5")
+                .takes_value(true),
+        )
         .get_matches()
 }
 
@@ -60,4 +68,12 @@ pub fn parse_input(matches: &ArgMatches) -> Vec<PathBuf> {
 
 pub fn parse_output(matches: &ArgMatches) -> &Path {
     Path::new(matches.value_of("output").expect("No output provided"))
+}
+
+pub fn parse_dataset_size(matches: &ArgMatches) -> usize {
+    matches
+        .value_of("size")
+        .expect("No dataset size provided")
+        .parse::<usize>()
+        .expect("Failed parsing dataset size")
 }
