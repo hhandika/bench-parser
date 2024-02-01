@@ -92,6 +92,7 @@ pub struct Pubs {
     pub ntax: usize,
     pub aln_counts: usize,
     pub site_counts: usize,
+    pub char_counts: usize,
     pub datatype: String,
 }
 
@@ -102,6 +103,7 @@ impl Pubs {
             ntax: 0,
             aln_counts: 0,
             site_counts: 0,
+            char_counts: 0,
             datatype: String::new(),
         }
     }

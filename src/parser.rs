@@ -155,6 +155,7 @@ impl<'a> Parser<'a> {
             pubs if pubs.contains("chan") => pub_recs.pub_chan(),
             pubs if pubs.contains("wu") => pub_recs.pub_wu(),
             pubs if pubs.contains("shen") => pub_recs.pub_shen(),
+            pubs if pubs.contains("SRR26062012") => pub_recs.pub_genome(),
             _ => pub_recs.pub_unknown(pubs),
         }
 
@@ -242,19 +243,21 @@ impl PubRecord {
         Self { pubs: Pubs::new() }
     }
 
+    fn pub_chan(&mut self) {
+        self.pubs.name = String::from("Chan et al. 2020");
+        self.pubs.ntax = 50;
+        self.pubs.aln_counts = 13181;
+        self.pubs.char_counts = 239310808;
+        self.pubs.site_counts = 6180393;
+        self.pubs.datatype = String::from("DNA");
+    }
+
     fn pub_esselstyn(&mut self) {
         self.pubs.name = String::from("Esselstyn et al. 2021");
         self.pubs.ntax = 102;
         self.pubs.aln_counts = 4040;
+        self.pubs.char_counts = 358099656;
         self.pubs.site_counts = 5398947;
-        self.pubs.datatype = String::from("DNA");
-    }
-
-    fn pub_oliveros(&mut self) {
-        self.pubs.name = String::from("Oliveros et al. 2019");
-        self.pubs.ntax = 221;
-        self.pubs.aln_counts = 4060;
-        self.pubs.site_counts = 2464926;
         self.pubs.datatype = String::from("DNA");
     }
 
@@ -262,32 +265,45 @@ impl PubRecord {
         self.pubs.name = String::from("Jarvis et al. 2014");
         self.pubs.ntax = 49;
         self.pubs.aln_counts = 3679;
+        self.pubs.char_counts = 453333006;
         self.pubs.site_counts = 9251694;
         self.pubs.datatype = String::from("DNA");
     }
 
-    fn pub_chan(&mut self) {
-        self.pubs.name = String::from("Chan et al. 2020");
-        self.pubs.ntax = 50;
-        self.pubs.aln_counts = 13181;
-        self.pubs.site_counts = 6180393;
+    fn pub_oliveros(&mut self) {
+        self.pubs.name = String::from("Oliveros et al. 2019");
+        self.pubs.ntax = 221;
+        self.pubs.aln_counts = 4060;
+        self.pubs.char_counts = 522529858;
+        self.pubs.site_counts = 2464926;
         self.pubs.datatype = String::from("DNA");
-    }
-
-    fn pub_wu(&mut self) {
-        self.pubs.name = String::from("Wu et al. 2018");
-        self.pubs.ntax = 90;
-        self.pubs.aln_counts = 5162;
-        self.pubs.site_counts = 3050198;
-        self.pubs.datatype = String::from("AA");
     }
 
     fn pub_shen(&mut self) {
         self.pubs.name = String::from("Shen et al. 2018");
         self.pubs.ntax = 343;
         self.pubs.aln_counts = 2408;
+        self.pubs.char_counts = 398842115;
         self.pubs.site_counts = 1162805;
         self.pubs.datatype = String::from("AA");
+    }
+
+    fn pub_wu(&mut self) {
+        self.pubs.name = String::from("Wu et al. 2018");
+        self.pubs.ntax = 90;
+        self.pubs.aln_counts = 5162;
+        self.pubs.char_counts = 257060172;
+        self.pubs.site_counts = 3050198;
+        self.pubs.datatype = String::from("AA");
+    }
+
+    fn pub_genome(&mut self) {
+        self.pubs.name = String::from("SRR26062012");
+        self.pubs.ntax = 1;
+        self.pubs.aln_counts = 0;
+        self.pubs.char_counts = 243874896842;
+        self.pubs.site_counts = 0;
+        self.pubs.datatype = String::from("DNA");
     }
 
     fn pub_unknown(&mut self, pubs: &str) {
