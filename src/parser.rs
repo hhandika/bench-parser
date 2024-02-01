@@ -69,8 +69,12 @@ impl<'a> Parser<'a> {
                 if dataset_size != self.dataset_size || !dataset.has_record() {
                     panic!(
                         "Invalid dataset result of {} for {}. \
-                        Expected 10 records. Found : {}",
-                        rec.benchmark.bench, dataset.name, dataset_size
+                        Expected {} records. Found : {}. Offending file: {}",
+                        rec.benchmark.bench,
+                        dataset.name,
+                        self.dataset_size,
+                        dataset_size,
+                        input.display()
                     );
                 } else {
                     for bench in dataset.result {
@@ -496,7 +500,7 @@ mod tests {
         initialize_parser!(parser);
         let file_name = "remove_bench_raw_aa_OpenSUSE_2022-10-04.txt";
         let name = parser.parse_analysis_name(file_name);
-        assert_eq!("Sequence Removal", parser.match_analyses(name));
+        assert_eq!("Sequence Removal (NEXUS)", parser.match_analyses(name));
     }
 
     #[test]
