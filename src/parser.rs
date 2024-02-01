@@ -42,7 +42,7 @@ impl<'a> Parser<'a> {
         writeln!(
             writer,
             "Apps,Version,\
-            Pubs,Datasets,NTAX,Alignment_counts,Site_counts,\
+            Pubs,Datasets,NTAX,Character_counts,Alignment_counts,Site_counts,\
             Datatype,Analyses,Platform,OS_name,CPU,Benchmark_dates,Latest_bench,\
             Execution_time,RAM_usage_kb,Percent_CPU_usage,\
             Execution_time_secs,RAM_usage_Mb\
@@ -81,6 +81,7 @@ impl<'a> Parser<'a> {
                         write!(writer, "{},", pubs.pubs.name)?;
                         write!(writer, "{} ({}),", pubs.pubs.name, pubs.pubs.datatype)?;
                         write!(writer, "{},", pubs.pubs.ntax)?;
+                        write!(writer, "{},", pubs.pubs.char_counts)?;
                         write!(writer, "{},", pubs.pubs.aln_counts)?;
                         write!(writer, "{},", pubs.pubs.site_counts)?;
                         write!(writer, "{},", pubs.pubs.datatype)?;
