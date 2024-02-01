@@ -214,8 +214,8 @@ impl<'a> Parser<'a> {
         };
         let dataset = dataset_format.1;
         match dataset {
-            Some(dataset) => format!("{} ({})", analysis, dataset),
-            None => format!("{} (Nexus)", analysis),
+            Some(dataset) => format!("{} ({})", analysis, dataset.to_uppercase()),
+            None => format!("{} (NEXUS)", analysis),
         }
     }
 
