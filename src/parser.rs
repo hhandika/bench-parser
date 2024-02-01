@@ -202,13 +202,29 @@ impl<'a> Parser<'a> {
     }
 
     fn match_analyses(&self, analysis: &str) -> String {
-        match analysis {
+        let dataset_format = self.parse_dataset_format(analysis);
+        let analysis = match dataset_format.0.as_str() {
             "concat" => "Alignment Concatenation".to_string(),
             "convert" => "Alignment Conversion".to_string(),
-            "summary" => "Summary Statistics".to_string(),
+            "summary" => "Alignment Summary".to_string(),
             "remove" => "Sequence Removal".to_string(),
             "split" => "Alignment Splitting".to_string(),
+            "raw" => "Read Summary".to_string(),
             _ => analysis.to_string(),
+        };
+        let dataset = dataset_format.1;
+        match dataset {
+            Some(dataset) => format!("{} ({})", analysis, dataset),
+            None => format!("{} (Nexus)", analysis),
+        }
+    }
+
+    fn parse_dataset_format(&self, dataset: &str) -> (String, Option<String>) {
+        if dataset.contains('-') {
+            let dataset = dataset.split('-').collect::<Vec<&str>>();
+            (dataset[0].to_string(), Some(dataset[1].to_string()))
+        } else {
+            (dataset.to_string(), None)
         }
     }
 
