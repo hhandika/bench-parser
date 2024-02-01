@@ -205,9 +205,12 @@ impl<'a> Parser<'a> {
         match analysis {
             "concat" => "Alignment Concatenation".to_string(),
             "convert" => "Alignment Conversion".to_string(),
-            "summary" => "Summary Statistics".to_string(),
+            "summary" => "Alignment Summary Statistics".to_string(),
             "remove" => "Sequence Removal".to_string(),
-            "split" => "Alignment Splitting".to_string(),
+            "split-nexus" => "Alignment Splitting NEXUS".to_string(),
+            "split-fasta" => "Alignment Splitting FASTA".to_string(),
+            "split-phylip" => "Alignment Splitting PHYLIP".to_string(),
+            "raw" => "Read Summary Statistics".to_string(),
             _ => analysis.to_string(),
         }
     }
