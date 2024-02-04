@@ -173,6 +173,8 @@ impl<'a> Parser<'a> {
             app if app.contains("SEGUL") => {
                 if app.contains("ignore") {
                     apps.name = String::from("SEGUL (--datatype ignore)");
+                } else if app.contains("GUI") {
+                    apps.name = String::from("SEGUL GUI");
                 } else {
                     apps.name = String::from("SEGUL");
                 }
@@ -316,7 +318,7 @@ impl PubRecord {
         self.pubs.ntax = 0;
         self.pubs.aln_counts = 0;
         self.pubs.site_counts = 0;
-        self.pubs.datatype = String::from("UNKNOWN");
+        self.pubs.datatype = String::from("Whole Genome");
     }
 }
 
