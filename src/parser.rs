@@ -95,7 +95,7 @@ impl<'a> Parser<'a> {
                             "{},",
                             self.parse_platform_with_app_name(&rec.cpu, &apps.name)
                         )?;
-                        write!(writer, "{},", rec.os)?;
+                        write!(writer, "{},", self.parse_os(&rec.os, &apps.name))?;
                         write!(writer, "{},", rec.cpu)?;
                         write!(writer, "{},", date)?;
                         write!(writer, "TRUE,")?;
@@ -119,10 +119,23 @@ impl<'a> Parser<'a> {
             // capture the word inside the parenthesis
             let name = app.split_whitespace().collect::<Vec<&str>>();
             assert!(name.len() == 3, "Invalid app name {}", app);
-            return format!("GUI ({})", name[2]);
+            return String::from("GUI");
         }
 
         parse_platform(cpu_model)
+    }
+
+    fn parse_os(&self, os: &str, app: &str) -> String {
+        if app.contains("GUI") {
+            // capture the word inside the parenthesis
+            let name = app.split_whitespace().collect::<Vec<&str>>();
+            assert!(name.len() == 4, "Invalid app name {}", app);
+            // remove parenthesis and return the last word
+            let os = name[3].replace("(", "").replace(")", "");
+            return os;
+        }
+
+        os.to_string()
     }
 
     fn convert_kb_to_mb(&self, kb: &str) -> f32 {
