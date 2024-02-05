@@ -90,7 +90,11 @@ impl<'a> Parser<'a> {
                         write!(writer, "{},", pubs.pubs.site_counts)?;
                         write!(writer, "{},", pubs.pubs.datatype)?;
                         write!(writer, "{},", analysis_name)?;
-                        write!(writer, "{},", parse_platform(&rec.cpu))?;
+                        write!(
+                            writer,
+                            "{},",
+                            self.parse_platform_with_app_name(&rec.cpu, &apps.name)
+                        )?;
                         write!(writer, "{},", rec.os)?;
                         write!(writer, "{},", rec.cpu)?;
                         write!(writer, "{},", date)?;
@@ -108,6 +112,17 @@ impl<'a> Parser<'a> {
         println!("Finished parsing {} as {}", input.display(), analysis_name);
 
         Ok(())
+    }
+
+    fn parse_platform_with_app_name(&self, cpu_model: &str, app: &str) -> String {
+        if app.contains("GUI") {
+            // capture the word inside the parenthesis
+            let name = app.split_whitespace().collect::<Vec<&str>>();
+            assert!(name.len() == 3, "Invalid app name {}", app);
+            return format!("GUI ({})", name[2]);
+        }
+
+        parse_platform(cpu_model)
     }
 
     fn convert_kb_to_mb(&self, kb: &str) -> f32 {
