@@ -131,7 +131,7 @@ impl<'a> Parser<'a> {
             let name = app.split_whitespace().collect::<Vec<&str>>();
             assert!(name.len() == 3, "Invalid app name {}", app);
             // remove parenthesis and return the last word
-            let os = name[3].replace("(", "").replace(")", "");
+            let os = name[2].replace("(", "").replace(")", "");
             return os;
         }
 
