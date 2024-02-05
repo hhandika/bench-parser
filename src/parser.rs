@@ -129,7 +129,7 @@ impl<'a> Parser<'a> {
         if app.contains("GUI") {
             // capture the word inside the parenthesis
             let name = app.split_whitespace().collect::<Vec<&str>>();
-            assert!(name.len() == 4, "Invalid app name {}", app);
+            assert!(name.len() == 3, "Invalid app name {}", app);
             // remove parenthesis and return the last word
             let os = name[3].replace("(", "").replace(")", "");
             return os;
