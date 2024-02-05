@@ -175,8 +175,8 @@ impl<'a> Parser<'a> {
                     apps.name = String::from("SEGUL (--datatype ignore)");
                 } else if app.contains("GUI") {
                     let name = app.split_whitespace().collect::<Vec<&str>>();
-                    assert!(name.len() == 3, "Invalid app name");
-                    apps.name = format!("SEGUL GUI ({})", name[2]);
+                    assert!(name.len() == 4, "Invalid app name");
+                    apps.name = format!("SEGUL GUI ({})", name[3]);
                 } else {
                     apps.name = String::from("SEGUL");
                 }
