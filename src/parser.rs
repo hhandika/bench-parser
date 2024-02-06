@@ -95,6 +95,7 @@ impl<'a> Parser<'a> {
                             "{},",
                             self.parse_platform_with_app_name(&rec.cpu, &apps.name)
                         )?;
+                        write!(writer, "{},", self.parse_app_type(&apps.name))?;
                         write!(writer, "{},", self.parse_os(&rec.os, &apps.name))?;
                         write!(writer, "{},", rec.cpu)?;
                         write!(writer, "{},", date)?;
@@ -115,11 +116,12 @@ impl<'a> Parser<'a> {
     }
 
     fn parse_platform_with_app_name(&self, cpu_model: &str, app: &str) -> String {
+        if self.is_linux_gui(app) {
+            return String::from("Desktop");
+        }
+
         if app.contains("GUI") {
-            // capture the word inside the parenthesis
-            let name = app.split_whitespace().collect::<Vec<&str>>();
-            assert!(name.len() == 3, "Invalid app name {}", app);
-            return String::from("GUI");
+            return String::from("Mobile");
         }
 
         parse_platform(cpu_model)
@@ -136,6 +138,18 @@ impl<'a> Parser<'a> {
         }
 
         os.to_string()
+    }
+
+    fn is_linux_gui(&self, app: &str) -> bool {
+        app.to_lowercase().contains("linux") && app.contains("GUI")
+    }
+
+    fn parse_app_type(&self, app: &str) -> String {
+        if app.contains("GUI") {
+            return String::from("GUI");
+        }
+
+        String::from("CLI")
     }
 
     fn convert_kb_to_mb(&self, kb: &str) -> f32 {
