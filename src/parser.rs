@@ -43,7 +43,7 @@ impl<'a> Parser<'a> {
             writer,
             "Apps,Version,\
             Pubs,Datasets,NTAX,Character_counts,Alignment_counts,Site_counts,\
-            Datatype,Analyses,Platform,OS_name,CPU,Benchmark_dates,Latest_bench,\
+            Datatype,Analyses,Platform,App_type,OS_name,CPU,Benchmark_dates,Latest_bench,\
             Execution_time,RAM_usage_kb,Percent_CPU_usage,\
             Execution_time_secs,RAM_usage_Mb\
         "
@@ -214,13 +214,13 @@ impl<'a> Parser<'a> {
         match app {
             app if app.contains("SEGUL") => {
                 if app.contains("ignore") {
-                    apps.name = String::from("SEGUL (--datatype ignore)");
+                    apps.name = String::from("SEGUL CLI(--datatype ignore)");
                 } else if app.contains("GUI") {
                     let name = app.split_whitespace().collect::<Vec<&str>>();
                     assert!(name.len() == 4, "Invalid app name {}", app);
                     apps.name = format!("SEGUL GUI ({})", name[3]);
                 } else {
-                    apps.name = String::from("SEGUL");
+                    apps.name = String::from("SEGUL CLI");
                 }
                 apps.version = format!("v{}", version);
             }
