@@ -214,7 +214,7 @@ impl<'a> Parser<'a> {
         match app {
             app if app.contains("SEGUL") => {
                 if app.contains("ignore") {
-                    apps.name = String::from("SEGUL CLI(--datatype ignore)");
+                    apps.name = String::from("SEGUL CLI (--datatype ignore)");
                 } else if app.contains("GUI") {
                     let name = app.split_whitespace().collect::<Vec<&str>>();
                     assert!(name.len() == 4, "Invalid app name {}", app);
