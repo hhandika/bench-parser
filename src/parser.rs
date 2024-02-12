@@ -83,7 +83,15 @@ impl<'a> Parser<'a> {
                         write!(writer, "{},", apps.name)?;
                         write!(writer, "{},", apps.version)?;
                         write!(writer, "{},", pubs.pubs.name)?;
-                        write!(writer, "{} ({}),", pubs.pubs.name, pubs.pubs.datatype)?;
+                        write!(
+                            writer,
+                            "{}",
+                            self.create_dataset_name(
+                                &pubs.pubs.name,
+                                &pubs.pubs.datatype,
+                                pubs.pubs.char_counts
+                            )
+                        )?;
                         write!(writer, "{},", pubs.pubs.ntax)?;
                         write!(writer, "{},", pubs.pubs.char_counts)?;
                         write!(writer, "{},", pubs.pubs.aln_counts)?;
@@ -113,6 +121,11 @@ impl<'a> Parser<'a> {
         println!("Finished parsing {} as {}", input.display(), analysis_name);
 
         Ok(())
+    }
+
+    fn create_dataset_name(&self, pub_name: &str, datatype: &str, char_counts: usize) -> String {
+        let char_counts_mb = char_counts as f32 / 1_000_000.0;
+        format!("{} ({:.1} MBases,{})", pub_name, char_counts_mb, datatype)
     }
 
     fn parse_platform_with_app_name(&self, cpu_model: &str, app: &str) -> String {
