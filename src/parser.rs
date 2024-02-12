@@ -85,7 +85,7 @@ impl<'a> Parser<'a> {
                         write!(writer, "{},", pubs.pubs.name)?;
                         write!(
                             writer,
-                            "{}",
+                            "\"{}\",",
                             self.create_dataset_name(
                                 &pubs.pubs.name,
                                 &pubs.pubs.datatype,
@@ -125,7 +125,7 @@ impl<'a> Parser<'a> {
 
     fn create_dataset_name(&self, pub_name: &str, datatype: &str, char_counts: usize) -> String {
         let char_counts_mb = char_counts as f32 / 1_000_000.0;
-        format!("{} ({:.1} MBases,{})", pub_name, char_counts_mb, datatype)
+        format!("{} ({:.1} MBases, {})", pub_name, char_counts_mb, datatype)
     }
 
     fn parse_platform_with_app_name(&self, cpu_model: &str, app: &str) -> String {
