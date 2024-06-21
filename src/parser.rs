@@ -232,6 +232,8 @@ impl<'a> Parser<'a> {
                     let name = app.split_whitespace().collect::<Vec<&str>>();
                     assert!(name.len() == 4, "Invalid app name {}", app);
                     apps.name = format!("SEGUL GUI ({})", name[3]);
+                } else if app.contains("API") {
+                    apps.name = String::from("SEGUL API");
                 } else {
                     apps.name = String::from("SEGUL CLI");
                 }
@@ -249,7 +251,7 @@ impl<'a> Parser<'a> {
             }
             app if app.contains("Phyluce") => {
                 apps.name = String::from("Phyluce");
-                apps.version = String::from("v1.7.1");
+                apps.version = String::from("v1.7.3");
             }
             app if app.contains("goalign") => {
                 if app.contains("multi-core") {
